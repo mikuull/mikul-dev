@@ -5,11 +5,10 @@ import React from "react";
 import memoji from "@/assets/memoji.png";
 import { HeaderIcons } from "./header-icons";
 import { FaDownload } from "react-icons/fa";
-import { Separator } from "@/features/core/components/separator";
 
 export const Header = () => {
   return (
-    <section className="flex pt-40">
+    <section className="flex py-60">
       <div className="flex items-center justify-between space-x-80 mx-auto">
         <div className="flex flex-col space-y-6">
           <div className="flex flex-col space-y-2">
@@ -39,7 +38,7 @@ export const Header = () => {
             aria-hidden
             width={400}
             height={400}
-            className="hover:animate-hover-pulse cursor-pointer shadow-xl"
+            className="hover:animate-hover-pulse cursor-pointer"
           />
         </div>
         <div>
