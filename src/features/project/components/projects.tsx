@@ -5,7 +5,7 @@ import { SingleProject } from "./single-project";
 
 export const Projects = () => {
   return (
-    <section className="py-36">
+    <section className="py-36" id="#projects">
       <div className="flex flex-col space-y-6 max-w-[700px] px-28">
         <div>
           <Tag text="🔗 Projects" variant="purple" size="large" />

@@ -8,7 +8,7 @@ import { FaDownload } from "react-icons/fa";
 
 export const Header = () => {
   return (
-    <section className="flex py-60">
+    <section className="flex py-60" id="#header">
       <div className="flex items-center justify-between space-x-80 mx-auto">
         <div className="flex flex-col space-y-6">
           <div className="flex flex-col space-y-2">

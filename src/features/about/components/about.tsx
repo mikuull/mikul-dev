@@ -5,7 +5,7 @@ import { Tag } from "@/features/core/components/tag";
 
 export const About = () => {
   return (
-    <section className="py-36">
+    <section className="py-36" id="#about">
       <div className="flex items-center justify-center space-x-80">
         <div>
           <Image

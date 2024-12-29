@@ -16,7 +16,7 @@ import { FaLinux } from "react-icons/fa";
 
 export const Skills = () => {
   return (
-    <section className="py-36">
+    <section className="py-36" id="#skills">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center space-y-6">
           <Tag text="💻 Skills" variant="purple" size="large" />

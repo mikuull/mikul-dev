@@ -1,11 +1,11 @@
 export const navigationLinks: NavigationLinkType[] = [
   {
     name: "Home",
-    path: "#home",
+    path: "#header",
   },
   {
     name: "About me",
-    path: "#aboutme",
+    path: "#about",
   },
 
   {
