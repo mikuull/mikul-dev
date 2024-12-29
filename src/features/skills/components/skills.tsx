@@ -16,17 +16,19 @@ import { FaLinux } from "react-icons/fa";
 
 export const Skills = () => {
   return (
-    <section className="py-36" id="#skills">
+    <section className="py-24 lg:py-36" id="#skills">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center space-y-6">
           <Tag text="💻 Skills" variant="purple" size="large" />
-          <p className="text-5xl font-extrabold">Technologies and skills</p>
+          <p className="text-5xl font-extrabold text-center">
+            Technologies and skills
+          </p>
         </div>
         <div className="flex flex-col items-center pt-28 space-y-12">
           <p className="text-[#979797] font-semibold text-xl">
             Techs i use on a daily basis
           </p>
-          <ul className="flex items-center space-x-12 text-main">
+          <ul className="grid grid-cols-3 gap-10 lg:flex items-center lg:space-x-12 text-main">
             <li>
               <FaReact size={60} />
             </li>
@@ -57,7 +59,7 @@ export const Skills = () => {
           <p className="text-[#979797] font-semibold text-xl">
             Other techs I've had contact with
           </p>
-          <ul className="flex items-center space-x-12 text-main">
+          <ul className="grid grid-cols-3 gap-10 lg:flex items-center lg:space-x-12 text-main">
             <li>
               <RiJavaLine size={60} />
             </li>

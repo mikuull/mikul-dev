@@ -8,8 +8,11 @@ import { FaDownload } from "react-icons/fa";
 
 export const Header = () => {
   return (
-    <section className="flex py-60" id="#header">
-      <div className="flex items-center justify-between space-x-80 mx-auto">
+    <section
+      className="flex flex-col py-40 items-center mx-auto xl:py-60"
+      id="#header"
+    >
+      <div className="flex flex-col xl:flex-row items-center xl:justify-between xl:space-x-80 mx-auto ">
         <div className="flex flex-col space-y-6">
           <div className="flex flex-col space-y-2">
             <div className="w-1/2">
@@ -36,14 +39,14 @@ export const Header = () => {
             src={memoji.src}
             alt=""
             aria-hidden
-            width={400}
-            height={400}
-            className="hover:animate-hover-pulse cursor-pointer"
+            width={500}
+            height={500}
+            className="hover:animate-hover-pulse cursor-pointer hidden xl:block w-[400px]"
           />
         </div>
         <div>
           <div className="flex flex-col items-center space-y-4">
-            <button className="flex items-center gap-2 border-main border-2 px-5 py-3 rounded-xl bg-purplebg text-main font-bold hover:translate-y-2 transition-transform duration-150">
+            <button className="flex items-center gap-2 border-main border-2 px-5 py-3 rounded-xl bg-purplebg text-main font-bold hover:translate-y-2 transition-transform duration-150 mt-12 lg:mt-0">
               <FaDownload className="text-lg" />
               Download CV
             </button>

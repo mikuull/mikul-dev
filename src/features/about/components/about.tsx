@@ -5,15 +5,16 @@ import { Tag } from "@/features/core/components/tag";
 
 export const About = () => {
   return (
-    <section className="py-36" id="#about">
-      <div className="flex items-center justify-center space-x-80">
+    <section className=" py-24 lg:py-36" id="#about">
+      <div className="flex flex-col xl:flex-row items-center justify-center px-8 lg:space-x-80">
         <div>
           <Image
             src={memoji1.src}
             alt=""
             aria-hidden
-            width={450}
-            height={450}
+            width={300}
+            height={300}
+            className="pb-12 xl:pb-0 w-[350px] h-[350px]"
           />
         </div>
         <div className="flex flex-col space-y-4 max-w-[450px]">
