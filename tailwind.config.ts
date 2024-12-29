@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        "hover-pulse": "hoverPulse 1s ease-in-out",
+      },
+      keyframes: {
+        hoverPulse: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
+      },
       colors: {
         purplebg: "#14142b",
         main: "#7b4ae2;",
