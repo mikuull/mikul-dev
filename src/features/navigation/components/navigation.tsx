@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Navigation = () => {
   return (
-    <nav className="bg-purplebg w-[90%] mx-auto p-4 rounded-xl mt-8">
+    <nav className="fixed bg-purplebg w-[90%] left-24 p-4 rounded-xl mt-8">
       <div className="flex items-center justify-between px-4">
         <div>
           <Image
