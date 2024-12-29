@@ -14,7 +14,6 @@ export const Navigation = () => {
             width={32}
             height={32}
           />
-          {/* image */}
         </div>
         <ul className="flex items-center space-x-8">
           {navigationLinks.map((link) => (
