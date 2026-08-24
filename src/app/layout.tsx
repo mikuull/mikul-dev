@@ -42,7 +42,9 @@ export default function RootLayout({
         inter.variable,
       )}
     >
-      <body className="min-h-full flex flex-col bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100">
+      <body className="min-h-full flex flex-col bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 relative">
+        <div className="fixed inset-0 bg-dot-pattern pointer-events-none -z-10 mask-[radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+
         <AppProvider>
           <div className="flex min-h-screen">
             <aside className="hidden md:block w-64 border-r border-neutral-200 dark:border-neutral-800 bg-white/50 dark:bg-neutral-900/50 sticky top-0 h-screen">
@@ -58,7 +60,7 @@ export default function RootLayout({
                 </div>
 
                 <Sheet>
-                  <SheetTrigger>
+                  <SheetTrigger className="p-2">
                     <Menu className="w-5 h-5 cursor-pointer" />
                   </SheetTrigger>
                   <SheetContent
