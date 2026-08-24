@@ -61,7 +61,7 @@ export function Sidebar() {
       </div>
 
       <div className="space-y-4 pt-4 border-t border-neutral-200 dark:border-neutral-800">
-        <div className="px-2 flex items-center gap-2 text-xs text-neutral-600 dark:text-neutral-400 bg-neutral-100 dark:bg-neutral-900/80 py-1.5 px-2.5 rounded-md border border-neutral-200 dark:border-neutral-800/60">
+        <div className="px-2 flex items-center gap-2 text-xs text-neutral-600 dark:text-neutral-400 bg-neutral-100 dark:bg-neutral-900/80 py-1.5 rounded-md border border-neutral-200 dark:border-neutral-800/60">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
           <span>Available for hire</span>
         </div>
