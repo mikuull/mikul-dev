@@ -16,19 +16,19 @@ export const projectsData: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
   },
   {
-    title: "DevMetrics",
+    title: "mikul.dev",
     description:
-      "Developer productivity tracking and analytics dashboard with real-time graphs and GitHub integration.",
-    link: "https://github.com",
-    image: "/projects/devmetrics.png",
-    stack: ["React", "Node.js", "PostgreSQL", "Tailwind"],
+      "My personal portfolio: a fast, dark-themed site with an animated typing hero, project showcase and responsive sidebar navigation.",
+    link: "https://github.com/mikuull/mikul-dev",
+    image: "/mikuldev.png",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
   },
   {
-    title: "UI Kit",
+    title: "Linkify",
     description:
-      "A minimal, highly reusable component library styled specifically for modern SaaS products.",
-    link: "https://github.com",
-    image: "/projects/uikit.png",
-    stack: ["Next.js", "Tailwind CSS", "Radix UI"],
+      "A dark-themed bio link & link management platform with real-time analytics and customizable profile pages.",
+    link: "https://github.com/mikuull/linkify",
+    image: "/linkify.png",
+    stack: ["Next.js", "Tailwind CSS", "TypeScript"],
   },
 ];

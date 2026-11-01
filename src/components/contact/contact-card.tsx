@@ -36,7 +36,7 @@ export const ContactCard = ({ item }: ContactCardProps) => {
         <ArrowUpRight className="w-5 h-5 text-neutral-400 group-hover:text-emerald-500 transition-colors" />
       </div>
 
-      <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 break-words">
+      <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 wrap-break-word">
         {item.value}
       </p>
       <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
@@ -44,4 +44,4 @@ export const ContactCard = ({ item }: ContactCardProps) => {
       </p>
     </Link>
   );
-};
+};
