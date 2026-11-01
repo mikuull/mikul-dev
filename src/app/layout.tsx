@@ -6,6 +6,7 @@ import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Sidebar } from "@/components/sidebar/sidebar";
 import { AppProvider } from "@/providers/app-provider";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -53,10 +54,14 @@ export default function RootLayout({
             <div className="flex-1 flex flex-col min-w-0">
               <header className="md:hidden flex items-center justify-between px-4 h-16 border-b border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 sticky top-0 z-30">
                 <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-neutral-800 flex items-center justify-center font-bold text-white text-xs">
-                    M
-                  </div>
-                  <span className="font-semibold text-sm">Mikołaj</span>
+                  <Image
+                    src="/avatar.png"
+                    alt="Profile"
+                    width={32}
+                    height={32}
+                    className="rounded-full w-8 h-8 object-cover"
+                  />
+                  <span className="font-semibold text-sm">mikul.dev</span>
                 </div>
 
                 <Sheet>

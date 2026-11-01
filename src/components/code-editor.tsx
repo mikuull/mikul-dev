@@ -4,6 +4,11 @@ import { useTypingAnimation } from "./hooks/use-typing-animation";
 
 export function CodeEditor() {
   const typedName = useTypingAnimation("Mateusz Mikulski", 240, 1000);
+  const typedAge = useTypingAnimation(
+    `${new Date().getFullYear() - 2007}`,
+    160,
+    2000,
+  );
   const typedRole = useTypingAnimation("Full-stack Developer", 160, 3000);
   const typedStatus = useTypingAnimation("Ready for hire", 160, 5400);
 
@@ -43,6 +48,15 @@ export function CodeEditor() {
             </span>
             ,
           </div>
+
+          <div className="pl-4">
+            <span className="text-neutral-900 dark:text-neutral-200">age:</span>{" "}
+            <span className="text-emerald-600 dark:text-emerald-400">
+              &quot;{typedAge}&quot;
+            </span>
+            ,
+          </div>
+
           <div className="pl-4">
             <span className="text-neutral-900 dark:text-neutral-200">
               role:
@@ -81,7 +95,7 @@ export function CodeEditor() {
               default
             </span>{" "}
             <span className="text-yellow-600 dark:text-yellow-400">
-              developer
+              mikuull
             </span>
             ;
           </div>
